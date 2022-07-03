@@ -1,5 +1,6 @@
 import React from "react";
 import WebImg from "./Webimg";
+import FontAwesome from "./font";
 
 export default function Main() {
   return (
@@ -9,7 +10,7 @@ export default function Main() {
         <main className="content">
           <div className="intro-texts">
             <h2 className="name">Laura Smith</h2>
-            <h4 className="job">Frontend Developer</h4>
+            <p className="job">Frontend Developer</p>
             <p className="website">laurasmith.website</p>
           </div>
           <div className="contact-cta">
@@ -19,7 +20,7 @@ export default function Main() {
           <div className="more-info">
             <div className="about">
               <h3>About</h3>
-              <p>
+              <p className="more-info-text">
                 I am a frontend developer with a particular interest in making
                 things simple and automating dily tasks. I try to keep up with
                 security and best practices, and I'm always looking for new
@@ -28,7 +29,7 @@ export default function Main() {
             </div>
             <div className="interests">
               <h3>Interests</h3>
-              <p>
+              <p className="more-info-text">
                 Food expert. Music scholar. Reader. Internet fanatic. Bacon
                 buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee
                 fanatic.
