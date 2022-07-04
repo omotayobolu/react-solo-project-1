@@ -65,9 +65,20 @@ body {
   font-size: 1rem;
 }
 
+.btn.email {
+  padding: 10px 30px;
+  background-color: #d1d5db;
+}
+
 .btn.linkedIn {
   background-color: #5093e2;
   color: #ffffff;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+  margin-bottom: -3px;
+  margin-right: 8px;
 }
 
 .more-info {
@@ -91,10 +102,29 @@ h3 {
 
 footer {
   background-color: #161619;
+  width: 100%;
+}
+
+.socials {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  margin: 0 15px;
+  font-size: 2rem;
+  color: #161619;
+  background-color: #918e9b;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
   .container {
     margin: 15%;
+    display: grid;
+    place-items: center;
   }
 }

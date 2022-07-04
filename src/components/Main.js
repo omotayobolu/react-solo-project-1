@@ -1,6 +1,13 @@
 import React from "react";
 import WebImg from "./Webimg";
-import FontAwesome from "./font";
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaInstagram,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 
 export default function Main() {
   return (
@@ -14,8 +21,14 @@ export default function Main() {
             <p className="website">laurasmith.website</p>
           </div>
           <div className="contact-cta">
-            <button className="btn email">Email</button>
-            <button className="btn linkedIn">LinkedIn</button>
+            <button className="btn email">
+              <HiMail className="btn-icon" />
+              Email
+            </button>
+            <button className="btn linkedIn">
+              <FaLinkedin className="btn-icon" />
+              LinkedIn
+            </button>
           </div>
           <div className="more-info">
             <div className="about">
@@ -38,7 +51,12 @@ export default function Main() {
           </div>
         </main>
         <footer>
-          <div className="socials"></div>
+          <div className="socials">
+            <FaTwitter className="social" />
+            <FaFacebookF className="social" />
+            <FaInstagram className="social" />
+            <FaGithub className="social" />
+          </div>
         </footer>
       </div>
     </div>
